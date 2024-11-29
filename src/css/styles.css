@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+header{
+    padding: 1em 20%;
+    background-color: hsl(180, 40%, 15%);
+}
+header div{
+    width: fit-content;
+}
+header div h1,header div p{
+    color: white;
+}
+header div h1{
+    font-size: 2.5em;
+}
+header div h1 span{
+    color: tomato;
+    margin-right: 0.25em;
+}
+header nav{
+    margin-top: 2em;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    margin-right: 1em;
+}
+header nav ul li .active,header nav ul li:hover a{
+    background-color: tomato;
+}
+header nav ul a{
+    text-decoration: none;
+    padding: 0.5em 1em;
+    background-color: greenyellow;
+    color: white;
+    border-radius: 0.25em;
+}
+.home-content{
+    width: 90%;
+    margin: auto;
+    padding: 2em 5%;
+}
+.home-content main{
+    width: 60%;
+    margin: auto;
+}
+.home-content main article{
+    margin: 0.2em;
+}
+.home-content main article hgroup{
+    margin-bottom: 1em;
+}
+.home-content main article img{
+    width: 300px;
+    height: 100px;
+}
+.home-content aside h2{
+    margin-bottom: 2em;
+}
+.home-content aside nav li{
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+.home-content aside nav a{
+    text-decoration: none ;
+}
+.home-content aside .sponsors{
+    margin-top: 2em;
+}
+.home-content aside .sponsors section{
+    margin-bottom: 1em;
+}
+.home-content h2{
+    color: greenyellow;
+}
+.about-content{
+    margin-top: 2em;
+}
+.about-content main{
+    width: 50%;
+    margin-right: 2em;
+}
+.about-content main section h2,.about-content aside h2{
+    margin-bottom: 0.5em;
+    color: yellowgreen;
+}
+.about-content main p{
+    margin-bottom: 2em;
+}
+.about-content main p:nth-child(2){
+    font-weight: bold;
+}
+.about-content aside{
+    width: 25%;
+}
+.about-content aside nav ul li{
+    margin-bottom: 1em;
+    list-style: none;
+}
+.about-content aside nav ul li a{
+    text-decoration: none;
+}
+.about-content aside .sponsors section{
+   margin-bottom: 2em;
+}
+.contact-content{
+    width: 100%;
+    padding: 2em 10%;
+    margin-top: 2em;
+}
+.contact-content main{
+   width: 60%;
+}
+.contact-content aside ul li{
+    list-style: none;
+    margin-bottom: 1em;
+}
+.contact-content aside ul li a{
+    text-decoration: none;
+}
+.contact-content main article hgroup{
+    margin-bottom: 1em;
+}
+.contact-content main article img{
+    width: 300px;
+    height: 100px;
+}
+.contact-content  h2{
+    margin-bottom: 1em;
+}
+.contact-content form label{
+    font-size: 1.25em;
+    margin-bottom: 0.5em;
+}
+.contact-content form input{
+    margin-bottom: 1em;
+    max-width: 70%;
+    padding: 0.5em;
+}
+.contact-content main form textarea{
+    max-width:70% ;
+}
+.contact-content main section{
+    margin-bottom: 2em;
+}
+.contact-content main form input[type ='submit']{
+    width: 6em;
+    margin-top: 2em;
+}
+.contact-content main section h2,.contact-content aside  h2{
+    color: yellowgreen;
+}
+.contact-content aside .sponsors{
+    margin-top: 2em;
+}
+.contact-content .sponsors section{
+    margin-bottom: 1em;
+}
+footer .images img,footer .about img{
+    width: 100px;
+    height: 100px;
+    margin: 0.25em;
+}
+footer{
+   color: white;
+   background-color: hsl(180, 40%, 15%);
+}
+footer section{
+    width: 30%;
+    margin: 1em;
+}
+footer .footer-copyright{
+    width: 100%;
+    padding: 1em 2em;
+    background-color: hsl(0, 94%, 7%);
+}
+footer section h2{
+    margin-bottom: 1em;
+}
+footer .about img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 1em;
+}
+footer .contact address{
+    margin-top: 2em;
+    font-style: normal;
+}
+footer .footer-copyright nav ul{
+    list-style: none;
+}
+footer .footer-copyright nav ul li{
+    margin-right: 1em;
+}
+.footer-copyright nav ul a{
+    text-decoration: none;
+    color: white;
+}
+footer .footer-copyright nav ul li .active{
+    color: yellowgreen;
+}

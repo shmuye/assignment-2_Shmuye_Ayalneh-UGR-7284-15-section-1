@@ -1,0 +1,54 @@
+header div{
+    display: flex;
+    flex-direction: column;
+}
+header div p{
+    align-self: flex-end;
+}
+header nav ul{
+    display: flex;
+}
+.home-content{
+    display: flex;
+    justify-content: center;
+}
+.home-content main{
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 1fr 1fr;
+}
+.about-content{
+    display: flex;
+    justify-content: center;
+}
+.about-content main{
+    display: flex;
+    flex-direction: column;
+}
+.contact-content{
+    display: flex;
+    justify-content: center;
+}
+.contact-content form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-content main{
+    display: flex;
+    flex-direction: column;
+}
+footer .images{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .footer-copyright{
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-copyright nav ul{
+    display: flex;
+}
